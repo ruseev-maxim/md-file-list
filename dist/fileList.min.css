@@ -1,0 +1,18 @@
+.md-file-list-item {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  margin: 8px;
+  position: relative; }
+  .md-file-list-item__icon {
+    padding: 24px 16px; }
+  .md-file-list-item__footer {
+    background-color: #fafafa;
+    padding: 24px 16px; }
+  .md-file-list-item__close-button {
+    border: none;
+    background: none;
+    padding: 0;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    color: #777777; }

@@ -1,0 +1,15 @@
+<div class="md-file-list-item">
+    <button class="md-file-list-item__close-button">
+        <i class="mdi mdi-close-circle mdi-24px"></i>
+        <md-tooltip md-direction="top">
+            Delete file
+        </md-tooltip>
+    </button>
+    <div class="md-file-list-item__icon">
+        <img ng-src="{{img.name}}" width="200" height="100">
+    </div>
+    <div class="md-file-list-item__footer">
+        <md-file-list-icon file-type="{{img.type}}"></md-file-list-icon>
+        <!--{{img.name | cut:true:18:'...'}}-->
+    </div>
+</div>
